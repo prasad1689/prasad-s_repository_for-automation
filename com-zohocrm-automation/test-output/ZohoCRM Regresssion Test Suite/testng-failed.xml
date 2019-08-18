@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ZohoCRM Regresssion Test Suite]">
+  <test thread-count="5" name="Regression Test Suite(failed)">
+    <classes>
+      <class name="com.zohocrm.testcases.ZohoCrmLoginTC">
+        <methods>
+          <include name="ZohoCrmLoginTestCase"/>
+        </methods>
+      </class> <!-- com.zohocrm.testcases.ZohoCrmLoginTC -->
+      <class name="com.zohocrm.testcases.VerifyZohoDeskTC">
+        <methods>
+          <include name="VerifyZohoDeskTestCase"/>
+        </methods>
+      </class> <!-- com.zohocrm.testcases.VerifyZohoDeskTC -->
+    </classes>
+  </test> <!-- Regression Test Suite(failed) -->
+</suite> <!-- Failed suite [ZohoCRM Regresssion Test Suite] -->
